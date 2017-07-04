@@ -38,6 +38,25 @@ Here's The Keywords and Syntax Rules:
 
 `>VERB_NOUN` - "NOUN" will be "VERB"ing ( Future Tense )
 
+`'=VERB` - A Verb ( To Have "VERB"ed )
+
+`"=VERB` - The "VERB" As A Noun ( As in "To have jumped is great" )
+
+`'=VERB_NOUN` - "NOUN" has "VERB"ed ( Present Tense )
+
+`"=VERB_NOUN` - "NOUN" has been "VERB"ing ( Present Tense )
+
+`/=VERB_NOUN` - "NOUN" had "VERB"ed ( Past Tense )
+
+`%=VERB_NOUN` - "NOUN" had been "VERB"ing ( Past Tense )
+
+`+=VERB_NOUN` - "NOUN" is going to have been "VERB"ing ( Future Tense )
+
+`<=VERB_NOUN` - "NOUN" will have "VERB"ed ( Future Tense )
+
+`>=VERB_NOUN` - "NOUN" will have been "VERB"ing ( Future Tense )
+
+
 ## Logic / Conjunctions / Dependant Clause Starters
 
 `a&b` - A and B
@@ -52,7 +71,17 @@ Here's The Keywords and Syntax Rules:
 
 `,` - Then,
 
-`=` - When,
+`=0` - When,
+
+`=1` - As Soon As,
+
+`=2` - Right At X Time, or X on the dot.
+
+`[` - While
+
+`]0` - If
+
+`]1` - If, Emphasis: And Only If
 
 ## Independant Clause Starters
 
