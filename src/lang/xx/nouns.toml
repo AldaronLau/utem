@@ -10,6 +10,7 @@ worker = 6
 family_member = 7
 gathering = 8
 device = 9
+item = 10
 
 [surface]
 writing = 0 # what you write on
@@ -149,3 +150,9 @@ clock = 3
 [device.peripheral]
 keyboard = 0
 mouse = 0
+
+[item]
+bed = 0 # Items For Beds
+
+[item.bed]
+pillow = 0 # Pillow

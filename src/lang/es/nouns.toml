@@ -10,6 +10,7 @@ worker = ["el trabajador / la trabajadora"]
 family_member = 7
 gathering = 8
 device = 9
+item = 10
 
 [surface]
 writing = [""]
@@ -149,3 +150,9 @@ clock = ["el reloj"]
 [device.peripheral]
 keyboard = 0
 mouse = 0
+
+[item]
+bed = 0 # Items For Beds
+
+[item.bed]
+pillow = ["la almohada"] # Pillow
