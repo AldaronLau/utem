@@ -1,0 +1,29 @@
+# XX Adjectives
+
+feelings = 0
+colors = 1
+traits = 2
+
+[feelings]
+tired = 0
+energized = 1
+nervous = 2
+relaxed = 3
+calm = 4
+excited = 5
+sad = 6
+happy = 7
+depressed = 8
+cheerful = 9
+content = 10
+discontent = 11
+
+[colors]
+
+[traits]
+boring = 0
+interesting = 1
+easy = 2
+difficult = 3
+fun = 4
+unfun = 5

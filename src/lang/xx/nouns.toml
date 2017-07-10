@@ -1,0 +1,151 @@
+# XX Nouns
+
+surface = 0
+tool = 1
+furniture = 2
+container = 3
+structure = 4
+structural_component = 5
+worker = 6
+family_member = 7
+gathering = 8
+device = 9
+
+[surface]
+writing = 0 # what you write on
+
+[surface.writing]
+board = 0
+paper = 1
+
+[surface.writing.board]
+chalk = 0 # chalkboard
+dryerase = 1 # whiteboard / dry erase board
+
+[surface.writing.paper]
+printer = 0 # specifically, printer paper
+cardstock = 1 # cardstock
+notebook = 2 # notebook paper
+
+[tool]
+writing = 0 # what you write with
+erasing = 1 # eraser
+
+[tool.writing]
+chalk = 0 # chalk
+marker = 1 # marker
+
+[tool.writing.marker]
+coloring = 0 # coloring marker
+dryerase = 1 # dry erase marker
+
+[furniture]
+seat = 0 # item designed for sitting
+table = 1 # a piece of furniture you sit at
+
+[furniture.seat]
+chair = 0
+couch = 1
+bench = 2
+mat = 3
+
+[furniture.table]
+dining = 0 # a dining table
+desk = 1 # a desk
+
+[container]
+pack = 0 # container for carrying
+box = 1
+
+[container.pack]
+back = 0 # a backpack
+
+[structure]
+building = 0
+wall = 1
+station = 2
+landmark = 3
+artistic = 4
+
+[structure.building]
+office = 0 # office building
+apartment = 1 # apartement
+house = 2 # house
+station = 3 # building that provides services
+gym = 4 # gym ( as in building )
+library = 5 # library
+
+[structure.building.station]
+police = 0 # police station
+fire = 1 # fire station
+
+[structure.station]
+train = 0 # train station
+subway = 1 # subway station
+bus = 2 # bus station
+
+[structure.artistic]
+statue = 0
+monument = 1
+
+[structural_component]
+wall = 0
+window = 1
+stairs = 2
+door = 3
+floor = 4
+ceiling = 5
+hall = 6 # hallway
+room = 7
+
+[structural_component.room]
+bed = 0 # bedroom
+foyer = 1 # foyer / living room
+class = 2 # classroom
+hall = 3 # hall (as in a large room)
+chamber = 4 # chamber
+gym = 5 # gymnasium
+office = 6 # office
+
+[worker]
+director = 0
+programmer = 1
+musician = 2
+business = 3 # bussiness man/woman
+teacher = 4
+hunter = 5
+gardner = 6
+farmer = 7
+supervisor = 8
+manager = 9
+cashier = 10
+assistant = 11
+cook = 12
+intern = 13
+engineer = 14
+mechanic = 15
+boss = 16
+politician = 17
+
+[worker.cook]
+chef = 0 # Chef
+head = 1 # Head Chef
+
+[family_member]
+
+[gathering]
+mob = 0
+meeting = 1
+class = 2
+crowd = 3
+club = 4
+
+[device]
+calculator = 0
+computer = 1
+peripheral = 2
+clock = 3
+
+[device.peripheral]
+keyboard = 0
+mouse = 0

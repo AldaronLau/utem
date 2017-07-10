@@ -1,0 +1,151 @@
+# ES Nouns
+
+surface = [""]
+tool = [""]
+furniture = [""]
+container = [""]
+structure = [""]
+structural_component = [""]
+worker = ["el trabajador / la trabajadora"]
+family_member = 7
+gathering = 8
+device = 9
+
+[surface]
+writing = [""]
+
+[surface.writing]
+board = [""]
+paper = ["el papel"]
+
+[surface.writing.board]
+chalk = ["el pizarrón", "la pizarra"]
+dryerase = [""]
+
+[surface.writing.paper]
+printer = [""]
+cardstock = [""]
+notebook = [""]
+
+[tool]
+writing = [""]
+erasing = ["el borrador"]
+
+[tool.writing]
+chalk = ["la tiza"]
+marker = [""]
+
+[tool.writing.marker]
+coloring = [""]
+dryerase = [""]
+
+[furniture]
+seat = [""]
+table = ["la mesa"]
+
+[furniture.seat]
+chair = ["la silla"]
+couch = [""]
+bench = [""]
+mat = [""]
+
+[furniture.table]
+dining = [""]
+desk = ["el escritorio"]
+
+[container]
+pack = [""]
+box = [""]
+
+[container.pack]
+back = ["la mochila"]
+
+[structure]
+building = [""]
+wall = [""]
+station = [""]
+landmark = [""]
+artistic = [""]
+
+[structure.building]
+office = [""]
+apartment = [""]
+house = ["la casa"]
+station = [""]
+gym = 4 # gym ( as in building )
+library = ["la biblioteca"]
+
+[structure.building.station]
+police = [""]
+fire = [""]
+
+[structure.station]
+train = [""]
+subway = [""]
+bus = [""]
+
+[structure.artistic]
+statue = [""]
+monument = [""]
+
+[structural_component]
+wall = [""]
+window = ["la ventana"]
+stairs = [""]
+door = ["la puerta"]
+floor = [""]
+ceiling = [""]
+hall = ["el pasillo"]
+room = 7
+
+[structural_component.room]
+bed = 0 # bedroom
+foyer = 1 # foyer / living room
+class = 2 # classroom
+hall = 3 # hall (as in a large room)
+chamber = 4 # chamber
+gym = 5 # gymnasium
+office = ["la oficina"] # office
+
+[worker]
+director = ["el director / la directora"]
+programmer = 1
+musician = 2
+business = 3 # bussiness man/woman
+teacher = 4
+hunter = 5
+gardner = 6
+farmer = 7
+supervisor = 8
+manager = 9
+cashier = 10
+assistant = 11
+cook = 12
+intern = 13
+engineer = 14
+mechanic = 15
+boss = 16
+politician = 17
+
+[worker.cook]
+chef = 0 # Chef
+head = 1 # Head Chef
+
+[family_member]
+
+[gathering]
+mob = 0
+meeting = 1
+class = 2
+crowd = 3
+club = 4
+
+[device]
+calculator = ["la calculadora"]
+computer = ["la computadora"]
+peripheral = 2
+clock = ["el reloj"]
+
+[device.peripheral]
+keyboard = 0
+mouse = 0

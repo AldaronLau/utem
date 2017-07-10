@@ -1,0 +1,29 @@
+# ES Adjectives
+
+feelings = 0
+colors = 1
+traits = 2
+
+[feelings]
+tired = "cansado / cansada"
+energized = 1
+nervous = "nervioso / nerviosa"
+relaxed = 3
+calm = 4
+excited = 5
+sad = "triste"
+happy = 7
+depressed = 8
+cheerful = 9
+content = 10
+discontent = 11
+
+[colors]
+
+[traits]
+boring = "aburrido / aburrida"
+interesting = 1
+easy = "facil"
+difficult = "dificil"
+fun = "divertido / divertida"
+unfun = 5

@@ -1,0 +1,151 @@
+# EN Nouns
+
+surface = ["the surface"]
+tool = ["the tool"]
+furniture = ["the piece of furniture"]
+container = ["the container"]
+structure = ["the structure"]
+structural_component = ["the structural component"]
+worker = ["worker"]
+family_member = 7
+gathering = 8
+device = 9
+
+[surface]
+writing = ["the writing surface"]
+
+[surface.writing]
+board = ["the board"]
+paper = ["the paper"]
+
+[surface.writing.board]
+chalk = ["the chalkboard", "the blackboard"]
+dryerase = ["the whiteboard", "the dry erase board"]
+
+[surface.writing.paper]
+printer = ["the printer paper"]
+cardstock = ["the cardstock"]
+notebook = ["the notebook paper"]
+
+[tool]
+writing = ["the writing utensil"]
+erasing = ["the eraser"]
+
+[tool.writing]
+chalk = ["the chalk"]
+marker = ["the marker"]
+
+[tool.writing.marker]
+coloring = ["the marker"]
+dryerase = ["the dry erase marker"]
+
+[furniture]
+seat = ["the seat"]
+table = ["the table"]
+
+[furniture.seat]
+chair = ["the chair"]
+couch = ["the couch"]
+bench = ["the bench"]
+mat = ["the mat"]
+
+[furniture.table]
+dining = ["the dining table", "the dinner table"]
+desk = ["the desk"]
+
+[container]
+pack = ["the pack"]
+box = ["the box"]
+
+[container.pack]
+back = ["the backpack"]
+
+[structure]
+building = ["the building"]
+wall = ["the wall"]
+station = ["the station"]
+landmark = ["the landmark"]
+artistic = ["the artistic structure"]
+
+[structure.building]
+office = ["the office building", "the office"]
+apartment = ["the apartment"]
+house = ["the house"]
+station = ["the station"]
+gym = ["the gym", "the fitness center"]
+library = ["the library"]
+
+[structure.building.station]
+police = ["the police station"]
+fire = ["the fire station"]
+
+[structure.station]
+train = ["the train station"]
+subway = ["the subway station"]
+bus = ["the bus station"]
+
+[structure.artistic]
+statue = ["the statue"]
+monument = ["the monument"]
+
+[structural_component]
+wall = ["the wall"]
+window = ["the window"]
+stairs = ["the stairs"]
+door = ["the door"]
+floor = ["the floor"]
+ceiling = ["the ceiling"]
+hall = ["the hallway", "the hall"]
+room = ["the room"]
+
+[structural_component.room]
+bed = ["the bedroom"]
+foyer = ["the foyer", "the living room"]
+class = ["the classroom"]
+hall = ["the hall"]
+chamber = ["the chamber"]
+gym = ["the gymnasium"]
+office = ["the office"]
+
+[worker]
+director = ["the director"]
+programmer = ["the programmer"]
+musician = ["the musician"]
+business = ["the businessman / the business woman"]
+teacher = ["the teacher"]
+hunter = ["the hunter"]
+gardner = ["the gardner"]
+farmer = ["the farmer"]
+supervisor = ["the supervisor"]
+manager = ["the manager"]
+cashier = ["the cashier"]
+assistant = ["the assistant"]
+cook = ["the cook"]
+intern = ["the intern"]
+engineer = ["the engineer"]
+mechanic = ["the mechanic"]
+boss = ["the boss"]
+politician = 17
+
+[worker.cook]
+chef = ["the chef"] # Chef
+head = ["the head chef"] # Head Chef
+
+[family_member]
+
+[gathering]
+mob = 0
+meeting = 1
+class = 2
+crowd = 3
+club = 4
+
+[device]
+calculator = 0
+computer = 1
+peripheral = 2
+clock = 3
+
+[device.peripheral]
+keyboard = 0
+mouse = 0
