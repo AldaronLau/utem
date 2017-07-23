@@ -1,4 +1,4 @@
-# UTEM: Universal Text Encoding as Meaning
+![UTEM: Universal Text Encoding as Meaning](https://rawgit.com/aldarons-tech/utem/master/res/icon.svg)
 
 ## RanSlat Format
 This is an intermediate format between a language and bytecode
