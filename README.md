@@ -1,106 +1,88 @@
-# ran-slat
-A Language That Can Easily Translate To Any Spoken Language.
+# UTEM: Universal Text Encoding as Meaning
 
-# Spec
-Here's The Keywords and Syntax Rules:
+## RanSlat Format
+This is an intermediate format between a language and bytecode
 
-## General
-`_NOUN` - A Noun
+### Basic Syntax
+Each line of RanSlat is a sentence in spoken language.
 
-`-ADJECTIVE` - An Adjective
+	!(place.world) greeting.formal
 
-`-_NOUN`- Of A Noun
+Is how you'd say "Hello, world!".  The first character on the line is the type
+of sentence:
+* `!` - Statement
+* `?` - Question
+* `.` - Phrase
+* `_` - Unwritten ( Technically not a sentence )
 
-`:NOUN` - For Whom or What
+In this situation there's more to our sentence.  There's a vocative address.
+We're addressing the world to say hello, so a sentence that addresses something
+looks like this:
 
-`(PARENTHETICAL)` - A Parenthetical
+	.(`NOUN`)
 
-`«QUOTE»` or `{QUOTE}`- A Quote
+Next, the actual meaning of the sentence.
 
-`a\b` - a/b, a-b ( A Slash or Hyphen B )
+	greeting.formal
 
-## Verb
-`'VERB` - A Verb ( To _ )
+That means it's a type of `greeting` and the type is `formal`.  In English, this
+is Hello.
 
-`"VERB` - The "VERB" As A Noun ( As in "Jumping is fun" )
+### Adjectives
 
-`'VERB_NOUN` - "NOUN" "VERB"s ( Present Tense )
+Adjectives always glob onto nouns:
 
-`"VERB_NOUN` - "NOUN" is "VERB"ing ( Present Tense )
+	_place.world-size.small
 
-`/VERB_NOUN` - "NOUN" "VERB"ed ( Past Tense )
+"Small world"
 
-`%VERB_NOUN` - "NOUN" was "VERB"ing ( Past Tense )
+	_place.world-size.small-þ
 
-`+VERB_NOUN` - "NOUN" is going to "VERB" ( Future Tense )
+"The small world" - This adjective implies there's only one small world.
 
-`<VERB_NOUN` - "NOUN" will "VERB" ( Future Tense )
+	_place.world-size.small-α
 
-`>VERB_NOUN` - "NOUN" will be "VERB"ing ( Future Tense )
+"A small world" - This adjective implies there are more than one small world.
 
-`'=VERB` - A Verb ( To Have "VERB"ed )
+	_place.world-size.small-12
 
-`"=VERB` - The "VERB" As A Noun ( As in "To have jumped is great" )
+"12 small worlds" - Numbers are adjectives, too.
 
-`'=VERB_NOUN` - "NOUN" has "VERB"ed ( Present Tense )
+	_place.world-size.small-ß
 
-`"=VERB_NOUN` - "NOUN" has been "VERB"ing ( Present Tense )
+"Some small worlds"
 
-`/=VERB_NOUN` - "NOUN" had "VERB"ed ( Past Tense )
+### Conjunctions
 
-`%=VERB_NOUN` - "NOUN" had been "VERB"ing ( Past Tense )
+We use the logical operators for this.
 
-`+=VERB_NOUN` - "NOUN" is going to have been "VERB"ing ( Future Tense )
+	_place.continent.america ∧ _place.world-þ
 
-`<=VERB_NOUN` - "NOUN" will have "VERB"ed ( Future Tense )
+"America and the world"
 
-`>=VERB_NOUN` - "NOUN" will have been "VERB"ing ( Future Tense )
+	_place.continent.america ∨ _place.world-þ
 
+"America or the world"
 
-## Logic / Conjunctions / Dependant Clause Starters
+	_place.continent.america ⊕ _place.world-þ
 
-`a&b` - A and B
+"Either America or the world"
 
-`a|b` - A or B
+	_place.continent.america ∵ _place.world-þ
 
-`a^b` -> Exclusive Or ( Either A or B, but not both )
+"America because the world"
 
-`~a` or `¬a` -> Not A
+	_place.continent.america → _place.world-þ
 
-`@` - At
+"America, then the world"
 
-`,` - Then,
+	_place.continent.america ⇒ _place.world-þ
 
-`=0` - When,
+"America, so the world"
 
-`=1` - As Soon As,
+## UTEM Format
+This is the bytecode.
 
-`=2` - Right At X Time, or X on the dot.
-
-`[` - While
-
-`]0` - If
-
-`]1` - If, Emphasis: And Only If
-
-## Independant Clause Starters
-
-`;` - Start A Statement
-
-`!` - Start An Exclamation
-
-`?` - Start A Question
-
-`?!` - `‽` Start An Exclaimed Question
-
-## Numbers
-
-`$X` - X US Dollars
-
-`$X.Y` - X.Y US Dollars
-
-`$0.Y` - Y US Cents
-
-`#X` - Number X
-
-`#X.Y` - Number X.Y
+	0x07 0xE3 0xAA 'U' 'T' 'E' 'M' 0x00 // 8 byte header
+	{} // Independant Clause type.
+	____ // 

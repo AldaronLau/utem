@@ -1,0 +1,14 @@
+[package]
+name = "utem"
+version = "0.1.0"
+authors = ["Jeron Aldaron Lau <jeron.lau@plopgrizzly.tech>"]
+description = "A library for automatic translation from UTEM (Universal Text Encoding as Meaning)."
+keywords = ["translate", "translator", "language", "text", "universal"]
+categories = ["encoding", "parsing", "text-processing"]
+license = "MIT"
+documentation = "http://at.plopgrizzly.tech/docs/utem/"
+homepage = "http://at.plopgrizzly.tech/utem/"
+repository = "https://github.com/aldarons-tech/utem"
+exclude = ["README.md"]
+
+[dependencies]
