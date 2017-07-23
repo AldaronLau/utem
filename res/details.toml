@@ -1,5 +1,5 @@
 name = "%utem"
 comment = "%Universal Text Encoding as Meaning"
 description = """
-%Universal Text Encoding as Meaning (UTEM).
+% About: UTEM is a Rust library for decoding UTEM files ( Universal Text Encoding as Meaning).
 """
