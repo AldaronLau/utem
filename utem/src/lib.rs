@@ -4,6 +4,14 @@
 // Copyright 2017 (c) Jeron Lau
 // Licensed under the MIT LICENSE
 
+#![doc(
+	html_logo_url =
+		"https://rawgit.com/aldarons-tech/utem/master/res/icon.svg",
+	html_favicon_url =
+		"https://rawgit.com/aldarons-tech/utem/master/res/symbol.svg",
+	html_root_url = "http://at.plopgrizzly.tech/utem/"
+)]
+
 mod dictionary;
 
 mod english;
