@@ -1,0 +1,101 @@
+adam = "Adam"
+adolph = "Adolph"
+adrien = "Adrien"
+allen = { common = "Allen", other = "Alan" }
+albert = "Albert"
+alexander = { common = "Alexander", nickname = "Alex" }
+alfred = "Alfred"
+alphonso = "Alphonso"
+andrew = { common = "Andrew", nickname = "Drew" }
+anthony = { common = "Anthony", nickname = "Tony" }
+arthur = "Arthur"
+bartholomew = "Bartholomew"
+bartrand = "Bartrand"
+benedict = "Benedict"
+bernard = "Bernard"
+charles = { common = "Charles", other = "Karl" }
+caesar = "Caesar"
+cyrus = "Cyrus"
+clement = "Clement"
+conrad = "Conrad"
+cornelius = "Cornelius"
+christopher = { common = "Cristopher", other = "Christian" }
+daniel = { common = "Daniel", nickname = "Dan" }
+david = { common = "David", nickname = "Dave" }
+dominic = "Dominic"
+edmund = "Edmund"
+edward = { common = "Edward", nickname = ["Ed", "Eddy"] }
+henry = { common = "Henry" }
+ernest = "Ernest"
+stephan = { common = ["Stephan", "Stephen"], other = "Steven", nickname = "Steve" }
+eugene = "Eugene"
+frederick = "Frederick"
+philip = { common = "Philip", nickname = "Phil" }
+ferdinand = "Ferdinand"
+frank = "Frank"
+gabriel = "Gabriel"
+geoffrey = = { common = "Geoffrey", nickname = "Jeff" }
+gerald = "Gerald"
+gilbert = "Gilbert"
+gregory = { common = "Gregory", nickname = "Greg" }
+walter = { common = "Walter", nickname = "Walt" }
+william = { common = "William", nickname = "Will" }
+harold = "Harold"
+herbert = "Hebert"
+horace = "Horace"
+hubert = "Hubert"
+hugo = { common = "Hugh", other = "Hugo" }
+angel = "Angel"
+dingo = "Dingo" # No english equivalent ?
+gonzalo = "Gonzalo" # No english equivalent ?
+humphrey = "Humphrey"
+alphonso = "Alphonso"
+james = { common = "James", other = "Jim", nickname = "Jimmy" }
+george = "George"
+joseph = { common = "Joseph", nickname = ["Joe", "Joey"] }
+john = { common = "Jonathan", other = "John", nickname = "Johny" }
+julius = "Julius"
+leon = { common = "Leo", other = ["Leon", "Lee"] }
+leonard = "Leonard"
+leopold = "Leopoldo"
+lucas = { common = "Lucas", nickname = "Luke" }
+louis = { common = ["Louis", "Lewis"], nickname = "Louie" }
+manuel = "Manuel" # No english equivalent ?
+marcel = "Marcel"
+mark = "Mark"
+mario = "Mario"
+martin = "Martin"
+matthew = { common = "Matthew", nickname = "Matt" }
+michael = { common = "Michael", nickname = "Mike" }
+nathan = { common = "Nathan", nickname = "Nate" }
+oliver = "Oliver"
+oscar = "Oscar"
+osmond = "Osmond"
+paul = "Paul"
+frank = "Frank"
+patrick = { common = "Patrick, nickname = "Pat" }
+peter = { common = "Peter", nickname = "Pete" }
+rafael = "Rafael"
+raymond = { common = "Raymond", nickname = "Ray" }
+raul = "Raul" # No english equivalent ?
+
+## TODO ##
+richard = "Ricardo"
+robert = "Roberto"
+rudolph = "Rodolfo"
+roland = "Rolando"
+rueben = "Ruben"
+rupert = "Ruperto"
+silvan = "Silvano"
+silvester = "Silvestre"
+theodore = "Teodoro"
+timothy = "Timoteo"
+thomas = "Tomás"
+vincent = { common = "Vicente", other = "Victor" }
+lorenzo = "Lorenzo" # No english equivalent ?
+nicholas = "Nicolás"
+salvador = "Salvador" # No english equivalent ?
+samuel = "Samuel"
+sancho = "Sancho" # No english equivalent ?
+santiago = "Santiago" # No english equivalent ?
+sergio = "Sergio" # No english equivalent ?
