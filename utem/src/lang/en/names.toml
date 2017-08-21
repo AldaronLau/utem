@@ -78,24 +78,96 @@ peter = { common = "Peter", nickname = "Pete" }
 rafael = "Rafael"
 raymond = { common = "Raymond", nickname = "Ray" }
 raul = "Raul" # No english equivalent ?
-
-## TODO ##
-richard = "Ricardo"
-robert = "Roberto"
-rudolph = "Rodolfo"
-roland = "Rolando"
-rueben = "Ruben"
-rupert = "Ruperto"
-silvan = "Silvano"
-silvester = "Silvestre"
-theodore = "Teodoro"
-timothy = "Timoteo"
-thomas = "Tomás"
-vincent = { common = "Vicente", other = "Victor" }
+richard = { common = "Richard", nickname = "Rich" }
+robert = { common = "Robert", nickname = ["Rob", "Bob"] }
+rudolph = "Rudolph"
+roland = "Roland"
+rueben = "Rueben"
+rupert = "Rupert"
+silvan = "Silvan"
+silvester = "Silvester"
+theodore = "Theodore"
+timothy = { common = "Timothy", nickname = "Tim" }
+thomas = { common = "Thomas", nikname = "Tom" }
+vincent = common = "Vicent"
 lorenzo = "Lorenzo" # No english equivalent ?
-nicholas = "Nicolás"
+nicholas = { common = "Nicholas", nickname = "Nick" }
 salvador = "Salvador" # No english equivalent ?
-samuel = "Samuel"
+samuel = { common = "Samuel", nickname = "Sam" }
 sancho = "Sancho" # No english equivalent ?
 santiago = "Santiago" # No english equivalent ?
 sergio = "Sergio" # No english equivalent ?
+adele = "Adele"
+dawn = "Dawn"
+alice = "Alice"
+amy = "Amy"
+ann = "Ann"
+beatrice = "beatrice"
+bridget = "Bridget"
+camilla = { common = "Camilla", other = "Camille" }
+carla = "Carla"
+charlotte = "Carlotte"
+caroline = "Caroline"
+carmen = "Carmen" # No english equivalent ?
+katherine = { common = "Katherine", nickname = "Kate" }
+constance = "Constance"
+christina = "Christina"
+dorothy = "Dorothy"
+helen = { common = "Helen", other = ["Ellen", "Ella"] }
+elsie = "Elsie"
+emily = "Emily"
+grace = "Grace"
+henrietta = "Henrietta"
+estelle = "Estelle"
+esther = { common = "Esther", other = "Hester" }
+eugenia = "Eugenia" # No english equivalent ?
+eva = { common = "evelyn", nickname = "Eve" }
+philippa = "Philippa"
+florence = "Florence"
+frances = "Frances"
+gertrude = "Gertrude"
+gloria = "Gloria"
+guadalupe = "Guadalupe" # No english equivalent ?
+wilhelmina = "Wilhelmina"
+agnes = { common = "Agnes", other = "Inez" }
+elizabeth = { common = "Elizabeth", other = "Isabel" }
+josephine = { common = "Josefa", other = "josefina" }
+jane = { common "Jane", other = ["Jean", "Joan"] }
+juliet = { common = "Juliet", other = "Julie" }
+laura = { common = "Laura", other = ["Laurie", "Laurel"] }
+eleanor = "ELeanor"
+leticia = "Leticia" # No english equivalent ?
+dolores = { common = "Dolores", nickname = "Lola" } # No english equivalent ?
+lucy = "Lucy"
+louise = "Louise"
+emma = "Emma"
+margaret = "Margaret"
+mary = "Mary"
+marian = "Marian"
+martha = "Martha"
+hortense = "Hortense"
+patricia = "Patricia"
+pauline = "Pauline"
+pearl = "Pearl"
+pilar = "Pilar" # No english equivalent ?
+ramona = "Ramona" # No english equivalent ?
+rachel = "Rachel"
+rose = "Rose"
+sophie = "Sophie"
+susan = { common = "Susan", nickname = "Sue" }
+theodora = "Theodora"
+therese = "Therese"
+victoria = "Victoria"
+virginia = "Virginia"
+diana = "Diana"
+sarah = ["Sarah", "Sara"]
+amalia = "Amalia" # No english equivalent ?
+gabriela = { common = "Gabriela", nickname = "Gabi" } # No english equivalent ?
+julia = "Julia"
+marcela = "Marcela" # No english equivalent ?
+maricarmen = "Maricarmen" # No english equivalent ?
+mercedes = "Mercedes" # No english equivalent ?
+monica = "Monica" # No english equivalent ?
+rebecca = "Rebecca"
+yolanda = { common = "Yolanda", nickname = "Yoli" } # No english equivalent ?
+tina = "Tina" # No english equivalent ?
