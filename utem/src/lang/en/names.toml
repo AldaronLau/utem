@@ -1,3 +1,10 @@
+# Universal Text Encoding as Meaning                                           #
+# Copyright (c) 2017 Plop Grizzly, Jeron Lau <jeron.lau@plopgrizzly.com>       #
+# Licensed under the MIT LICENSE                                               #
+#                                                                              #
+# src/lang/en/names.toml                                                       #
+#    English names                                                             #
+
 adam = "Adam"
 adolph = "Adolph"
 adrien = "Adrien"

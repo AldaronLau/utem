@@ -1,4 +1,4 @@
-// Universal Text Encoding as Meaning
+// Universal Text Encoding as Meaning Compiler
 // Copyright (c) 2017 Plop Grizzly, Jeron Lau <jeron.lau@plopgrizzly.com>
 // Licensed under the MIT LICENSE
 //

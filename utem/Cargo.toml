@@ -13,17 +13,36 @@
 #                           ¯————————————¯                                     #
 # Cargo.toml                                                                   #
 
+################################################################################
+
 [package]
 name = "utem"
 version = "0.1.0"
-authors = ["Jeron Aldaron Lau <jeron.lau@plopgrizzly.tech>"]
-description = "A library for automatic translation from UTEM (Universal Text Encoding as Meaning)."
-keywords = ["translate", "translator", "language", "text", "universal"]
-categories = ["encoding", "parsing", "text-processing"]
+authors = ["Jeron Aldaron Lau <jeron.lau@plopgrizzly.com>"]
+
+################################################################################
+
 license = "MIT"
 documentation = "https://docs.rs/utem"
 homepage = "http://plopgrizzly.com/utem"
 repository = "https://github.com/plopgrizzly/utem"
-exclude = ["README.md"]
+
+################################################################################
+
+readme = "README.md"
+description = """
+    The UTEM crate is a library developed by Plop Grizzly for translating UTEM
+    (Universal Text Encoding as Meaning) bytecode to human-readable text.
+"""
+keywords = ["translate", "translator", "language", "text", "universal"]
+categories = ["encoding", "parsing", "text-processing"]
+
+################################################################################
+
+exclude = ["examples/*", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md", ".gitignore"]
+
+################################################################################
 
 [dependencies]
+
+################################################################################
