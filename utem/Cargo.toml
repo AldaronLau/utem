@@ -1,3 +1,18 @@
+# Universal Text Encoding as Meaning                                           #
+# Copyright (c) 2017 Plop Grizzly, Jeron Lau <jeron.lau@plopgrizzly.com>       #
+# Licensed under the MIT LICENSE                                               #
+#                             _        _                                       #
+#                            /@\——————/@\                                      #
+# .———  .                   |   o    o   |     .————      .            .       #
+# |   | |  .———   .———   .——.     []     .——.  |      .——    ———: ———: | .   . #
+# |   | |  |   |  |   |  \   \   <##>   /   /  |      |   |    /    /  | |   | #
+# |———  |  |   |  |   |   |   ¯        ¯   |   |   -- |   |   /    /   |  \ /  #
+# |     |  |   |  |———    |                |   |    | |   |  /    /    |   |   #
+# |     |   ———   |       |                |    ————  |   | :——— :———  |   |   #
+#                 |        \              /                              __/   #
+#                           ¯————————————¯                                     #
+# Cargo.toml                                                                   #
+
 [package]
 name = "utem"
 version = "0.1.0"
@@ -6,9 +21,9 @@ description = "A library for automatic translation from UTEM (Universal Text Enc
 keywords = ["translate", "translator", "language", "text", "universal"]
 categories = ["encoding", "parsing", "text-processing"]
 license = "MIT"
-documentation = "http://at.plopgrizzly.tech/docs/utem/"
-homepage = "http://at.plopgrizzly.tech/utem/"
-repository = "https://github.com/aldarons-tech/utem"
+documentation = "https://docs.rs/utem"
+homepage = "http://plopgrizzly.com/utem"
+repository = "https://github.com/plopgrizzly/utem"
 exclude = ["README.md"]
 
 [dependencies]

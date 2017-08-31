@@ -1,15 +1,15 @@
-// lib.rs
-// UTEM: Universal Text Encoding as Meaning
-// Copyright 2017 (c) Aldaron's Tech
-// Copyright 2017 (c) Jeron Lau
+// Universal Text Encoding as Meaning
+// Copyright (c) 2017 Plop Grizzly, Jeron Lau <jeron.lau@plopgrizzly.com>
 // Licensed under the MIT LICENSE
+//
+// src/lib.rs
 
 #![doc(
 	html_logo_url =
-		"https://rawgit.com/aldarons-tech/utem/master/res/icon.svg",
+		"https://raw.githubusercontent.com/plopgrizzly/utem/master/res/icon.svg",
 	html_favicon_url =
-		"https://rawgit.com/aldarons-tech/utem/master/res/symbol.svg",
-	html_root_url = "http://at.plopgrizzly.tech/utem/"
+		"https://raw.githubusercontent.com/plopgrizzly/utem/master/res/symbol.svg",
+	html_root_url = "http://plopgrizzly.com/utem"
 )]
 
 mod dictionary;
